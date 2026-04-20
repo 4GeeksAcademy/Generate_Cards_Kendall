@@ -19,12 +19,11 @@ window.onload = function() {
   number.innerText = randomNumber;
   
   suits.forEach(elem => {
-    if (randomSuits === "♦" || randomSuits === "♥") {
-    suits.forEach(elem => {
-      elem.style.color = "red";
-    });
+  if (randomSuits === "♦" || randomSuits === "♥") {
+    elem.style.color = 'red'
   }
-    elem.innerText = randomSuits;
-  })
+  
+  elem.innerText = randomSuits;
+})
 
 };
