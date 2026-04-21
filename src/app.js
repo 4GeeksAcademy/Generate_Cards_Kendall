@@ -21,7 +21,9 @@ function generateCard() {
   suits.forEach(elem => {
   if (randomSuits === "♦" || randomSuits === "♥") {
     elem.style.color = 'red'
-  } else {elem.style.color = "black"}
+  } else {
+    elem.style.color = "black"
+  }
   
   elem.innerText = randomSuits;
   })
