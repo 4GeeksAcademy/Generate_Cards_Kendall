@@ -3,3 +3,7 @@
 body{
     background: white;
 }
+
+.rotate {
+    transform: rotate(180deg);
+}
